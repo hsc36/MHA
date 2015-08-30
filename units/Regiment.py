@@ -1,6 +1,6 @@
-class Regiment:
+class Regiment(Unit):
 
 	"A Regiment Unit - a group of Battalions"
 	
 	def __init__(self):
-		Unit.__init__(self, "Regiment")
+		super().__init__(self, "Regiment")

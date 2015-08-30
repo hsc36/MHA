@@ -1,6 +1,6 @@
-class Army:
+class Army(Unit):
 
 	"An Army Unit - a group of Corps"
 	
 	def __init__(self):
-		Unit.__init__(self, "Army")
+		super().__init__(self, "Army")

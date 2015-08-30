@@ -1,6 +1,6 @@
-class Platoon:
+class Platoon(Unit):
 
 	"A Platoon Unit - a group of Squads"
 	
 	def __init__(self):
-		Unit.__init__(self, "Platoon")
+		super().__init__(self, "Platoon")

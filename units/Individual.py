@@ -1,6 +1,8 @@
-class Individual:
+class Individual(Unit):
 
 	"An Individual Unit - soldier, airman, marine, trooper, etc."
 	
 	def __init__(self):
-		Unit.__init__(self, "Individual")
+		super().__init__(self, "Individual")
+		self.setSize(1)
+		self.setChild(None)

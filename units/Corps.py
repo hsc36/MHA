@@ -1,6 +1,6 @@
-class Corps:
+class Corps(Unit):
 
 	"A Corps Unit - a group of Divisions or Brigades"
 	
 	def __init__(self):
-		Unit.__init__(self, "Corps")
+		super().__init__(self, "Corps")

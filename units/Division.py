@@ -1,6 +1,6 @@
-class Division:
+class Division(Unit):
 
 	"A Division Unit - a group of Brigades or Regiments"
 	
 	def __init__(self):
-		Unit.__init__(self, "Division")
+		super().__init__(self, "Division")

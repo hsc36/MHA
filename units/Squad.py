@@ -1,6 +1,6 @@
-class Squad:
+class Squad(Unit):
 
 	"A Squad Unit - a group of Teams"
 	
 	def __init__(self):
-		Unit.__init__(self, "Squad")
+		super().__init__(self, "Squad")
